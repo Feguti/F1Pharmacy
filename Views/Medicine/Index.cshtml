@@ -1,0 +1,42 @@
+@model IEnumerable<F1Pharmacy.Models.Medicine>
+
+@{
+    ViewData["Title"] = "Medications";
+}
+<h1>@ViewData["Title"]</h1>
+
+@if(Model.Count() == 0)
+{
+    <p>Nenhum medicamento cadastrado</p>
+     <p><a class="asd" asp-area="" asp-controller="Medicine" asp-action="Cadastro"><strong>Cadastrar medicamento</strong></a></p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Nome</th>
+                <th>Tipo</th>
+                <th>Descrição</th>
+            </tr>
+        </thead>
+        <body>
+            @foreach(var medicine in Model)
+            {
+                <tr>
+                    <td>@medicine.Id</td>
+                    <td>@medicine.Name</td>
+                    <td>@medicine.Type</td>
+                    <td>@medicine.Description</td>
+                    <td>
+                        <a class = "btn btn-primary btn-sm"href ="/Medicine/Show/@medicine.Id">Ver</a>
+                        <a class = "btn btn-primary btn-sm"href ="/Medicine/Update/@medicine.Id">Atualizar</a>
+                        <a class = "btn btn-primary btn-sm"href ="/Medicine/Delete/@medicine.Id">Deletar</a>
+                    </td>
+                </tr>
+            }
+        </body>
+    </table>
+                
+}

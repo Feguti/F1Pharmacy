@@ -16313,8 +16313,18 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\fegut\\Desktop\\F1Pharmacy\\Views\\Medicine\\Cadastro.cshtml",
+      "TargetPath": "Views\\Medicine\\Cadastro.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\fegut\\Desktop\\F1Pharmacy\\Views\\Store\\Cadastro.cshtml",
       "TargetPath": "Views\\Store\\Cadastro.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\fegut\\Desktop\\F1Pharmacy\\Views\\Medicine\\Show.cshtml",
+      "TargetPath": "Views\\Medicine\\Show.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -16325,6 +16335,11 @@
     {
       "FilePath": "c:\\Users\\fegut\\Desktop\\F1Pharmacy\\Views\\Home\\Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\fegut\\Desktop\\F1Pharmacy\\Views\\Medicine\\Delete.cshtml",
+      "TargetPath": "Views\\Medicine\\Delete.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -16343,6 +16358,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\fegut\\Desktop\\F1Pharmacy\\Views\\Medicine\\Index.cshtml",
+      "TargetPath": "Views\\Medicine\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\fegut\\Desktop\\F1Pharmacy\\Views\\Shared\\Error.cshtml",
       "TargetPath": "Views\\Shared\\Error.cshtml",
       "FileKind": "mvc"
@@ -16355,6 +16375,11 @@
     {
       "FilePath": "c:\\Users\\fegut\\Desktop\\F1Pharmacy\\Views\\Shared\\_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\fegut\\Desktop\\F1Pharmacy\\Views\\Medicine\\Update.cshtml",
+      "TargetPath": "Views\\Medicine\\Update.cshtml",
       "FileKind": "mvc"
     }
   ],

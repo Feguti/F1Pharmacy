@@ -1,0 +1,19 @@
+@model F1Pharmacy.Models.Medicine
+
+@{
+    ViewData["Title"] = $"Medicamento {Model.Id}";
+}
+<h1>@ViewData["Title"]</h1>
+
+<p>
+    <b>Id:</b> @Model.Id
+</p>
+<p>
+    <b>Nome:</b> @Model.Name
+</p>
+<p>
+    <b>Tipo:</b> @Model.Type
+</p>
+<p>
+    <b>Descrição:</b> @Model.Description
+</p>
