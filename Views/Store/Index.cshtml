@@ -1,0 +1,42 @@
+@model IEnumerable<F1Pharmacy.Models.Store>
+
+@{
+    ViewData["Title"] = "Stores";
+}
+<h1>@ViewData["Title"]</h1>
+
+@if(Model.Count() == 0)
+{
+    <p>Nenhuma loja cadastrada</p>
+     <p><a class="asd" asp-area="" asp-controller="Store" asp-action="Cadastro"><strong>Cadastrar nova loja</strong></a></p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Cidade</th>
+                <th>Endereço</th>
+                <th>Gerente</th>
+            </tr>
+        </thead>
+        <body>
+            @foreach(var store in Model)
+            {
+                <tr>
+                    <td>@store.Id</td>
+                    <td>@store.City</td>
+                    <td>@store.Address</td>
+                    <td>@store.Manager</td>
+                    <td>
+                        <a class = "btn btn-primary btn-sm"href ="/Store/Show/@store.Id">Ver</a>
+                        <a class = "btn btn-primary btn-sm"href ="/Store/Update/@store.Id">Atualizar</a>
+                        <a class = "btn btn-primary btn-sm"href ="/Store/Delete/@store.Id">Deletar</a>
+                    </td>
+                </tr>
+            }
+        </body>
+    </table>
+                
+}

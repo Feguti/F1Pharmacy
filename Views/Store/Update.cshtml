@@ -1,0 +1,33 @@
+@model F1Pharmacy.Models.Store
+
+@{
+    ViewData["Title"] = "Atualizar Laboratório";
+}
+
+<div class="text">
+    <h1 class="display-4">Atualizar especificações da loja</h1>
+    <hr>
+       
+</div>
+<div class="container">
+    <form action="Update" method="POST">
+        <div class="form-group">
+            <label for="id">Id</label>
+            <input type="text" name="id" id="id" class="form-control" value="@Model.Id" readonly>
+        </div>  
+        <div class="form-group" >
+            <label for="ram">Cidade</label>
+            <input type="text" name="city" id="city" class="form-control" value="@Model.City" required>   
+        </div> 
+        <div class="form-group" >
+            <label for="processor">Endereço</label>
+            <input type="text" name="address" id="address" class="form-control" value="@Model.Address" required>
+        </div> 
+        <div class="form-group" >
+            <label for="processor">Gerente</label>
+            <input type="text" name="manager" id="manager" class="form-control" value="@Model.Manager" required>
+        </div> 
+        
+        <button type="submit" class="btn btn-primary">Atualizar</button>
+    </form>
+</div>
