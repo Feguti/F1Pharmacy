@@ -55,25 +55,35 @@ public class StoreController : Controller
         return View();
     }
 
-    public IActionResult Update(int id, [FromForm] string city, [FromForm] string address, [FromForm] string manager )
-    {
-        Store unity = _context.Stores.Find(id);
+    [HttpGet]
+    public IActionResult Update([FromRoute] int id){
+        Store store = _context.Stores.Find(id);
 
-        if(unity == null)
+        if(store == null)
+        {
+            return NotFound();
+        }
+
+        return View(store);
+    }
+
+    [HttpPost]
+    public IActionResult Update(int id, [FromForm] string city, [FromForm] string address, [FromForm] string manager){
+        Store store = _context.Stores.Find(id);
+
+        if(store == null)
         {
             return Content("A loja não existe");
         }
         else
         {
-            unity.Id = id;
-            unity.City = city;
-            unity.Address = address;
-            unity.Manager = manager;
-            _context.Stores.Update(unity);
+            store.Id = id;
+            store.City = city;
+            store.Address = address;
+            store.Manager = manager;
+            _context.Stores.Update(store);
             _context.SaveChanges();
             return Content("Especificações da loja atualizadas com sucesso!");
         }
-
     }
-
 }

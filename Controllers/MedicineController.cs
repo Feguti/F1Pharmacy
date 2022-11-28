@@ -55,8 +55,24 @@ public class MedicineController : Controller
         return View();
     }
 
-    public IActionResult Update(int id, [FromForm] string name, [FromForm] string type, [FromForm] string description )
-    {
+
+
+    [HttpGet]
+    public IActionResult Update([FromRoute] int id){
+        
+        Medicine medicine = _context.Medicines.Find(id);
+
+        if(medicine == null)
+        {
+            return NotFound();
+        }
+
+        return View(medicine);
+    }
+
+    [HttpPost]
+    public IActionResult Update(int id, [FromForm] string name, [FromForm] string type, [FromForm] string description){
+
         Medicine medicine = _context.Medicines.Find(id);
 
         if(medicine == null)
@@ -73,7 +89,5 @@ public class MedicineController : Controller
             _context.SaveChanges();
             return Content("Especificações do medicamento atualizadas com sucesso!");
         }
-
     }
-
 }
