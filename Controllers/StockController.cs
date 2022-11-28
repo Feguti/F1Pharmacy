@@ -4,31 +4,31 @@ using F1Pharmacy.Models;
 
 namespace F1Pharmacy.Controllers;
 
-public class EmployeeController : Controller
+public class StockController : Controller
 {
     private readonly F1PharmacyContext _context;
 
-    public EmployeeController (F1PharmacyContext context)
+    public StockController (F1PharmacyContext context)
     {
         _context = context;
     }
 
-    public IActionResult Index () => View(_context.Employees);
+    public IActionResult Index () => View(_context.Stocks);
 
     public IActionResult Show(int id)
     {
-        Employee employee = _context.Employees.Find(id);
+        Stock stock = _context.Stocks.Find(id);
 
-        if(employee == null)
+        if(stock == null)
         {
             return RedirectToAction("Index");
         }
 
-        return View(employee);
+        return View(stock);
     }
 
     public IActionResult Delete(int id){
-        _context.Employees.Remove(_context.Employees.Find(id));
+        _context.Stocks.Remove(_context.Stocks.Find(id));
         _context.SaveChanges();
         return View();
     }
@@ -40,36 +40,35 @@ public class EmployeeController : Controller
     }
 
     [HttpPost]
-    public IActionResult Create(Employee employee){
+    public IActionResult Create(Stock stock){
         
-        if(_context.Employees.Find(employee.Id) != null)
+        if(_context.Stocks.Find(stock.Id) != null)
         {
-            return Content("Funcionário já cadastrado");
+            return Content("Item já cadastrado");
         }
         
-        _context.Employees.Add(employee);
+        _context.Stocks.Add(stock);
         _context.SaveChanges();
         return RedirectToAction("Create");
     }
 
     [HttpGet]
     public IActionResult Update([FromRoute] int id){
-        Employee employee = _context.Employees.Find(id);
+        Stock stock = _context.Stocks.Find(id);
 
-        if(employee == null)
+        if(stock == null)
         {
             return NotFound();
         }
 
-        return View(employee);
+        return View(stock);
     }
 
     [HttpPost]
-    public IActionResult Update(Employee customerUpdated){
-
+    public IActionResult Update(Stock customerUpdated){
         try
         {
-            _context.Employees.Update(customerUpdated);
+            _context.Stocks.Update(customerUpdated);
             _context.SaveChanges();
             return RedirectToAction("Index");
         }

@@ -44,7 +44,7 @@ public class CustomerController : Controller
         
         if(_context.Customers.Find(customer.Id) != null)
         {
-            return Content("Computador já cadastrado");
+            return Content("Cliente já cadastrado");
         }
         
         _context.Customers.Add(customer);

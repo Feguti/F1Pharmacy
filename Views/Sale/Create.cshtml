@@ -1,0 +1,35 @@
+@{
+
+    ViewData["Title"] = "Cadastro";
+
+}
+
+<div class="text-center">
+    <h1 class="display-4">Cadastrar venda</h1>
+</div>
+
+<div class="container">
+    <div class="con">
+        <div class="right-side">
+            <br>
+            <form action="Create" method="POST">
+                <div class="form-group">
+                    <label for="id">Id</label>
+                    <input type="text" name="id" id="id" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label for="name">Item</label>
+                    <input type="text" name="item" id="item" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label for="description">Quantidade</label>
+                    <input type="text" name="quantity" id="quantity" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label for="description">Valor</label>
+                    <input type="text" name="value" id="value" class="form-control" required>
+                </div>
+
+                <button type="submit" class="btn btn-primary">Cadastrar</button>
+            </form>
+        </div>

@@ -8,117 +8,157 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = F1Pharmacy
 build_property.RootNamespace = F1Pharmacy
-build_property.ProjectDir = C:\Users\henri\Desktop\F1Pharmacy\
+build_property.ProjectDir = C:\Users\PC\desktop\F1Pharmacy\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\henri\Desktop\F1Pharmacy
+build_property.MSBuildProjectDirectory = C:\Users\PC\desktop\F1Pharmacy
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/henri/Desktop/F1Pharmacy/Views/Customer/Create.cshtml]
+[C:/Users/PC/desktop/F1Pharmacy/Views/Customer/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/henri/Desktop/F1Pharmacy/Views/Customer/Delete.cshtml]
+[C:/Users/PC/desktop/F1Pharmacy/Views/Customer/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/henri/Desktop/F1Pharmacy/Views/Customer/Index.cshtml]
+[C:/Users/PC/desktop/F1Pharmacy/Views/Customer/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/henri/Desktop/F1Pharmacy/Views/Customer/Show.cshtml]
+[C:/Users/PC/desktop/F1Pharmacy/Views/Customer/Show.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcU2hvdy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/henri/Desktop/F1Pharmacy/Views/Customer/Update.cshtml]
+[C:/Users/PC/desktop/F1Pharmacy/Views/Customer/Update.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcVXBkYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/henri/Desktop/F1Pharmacy/Views/Employee/Create.cshtml]
+[C:/Users/PC/desktop/F1Pharmacy/Views/Employee/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/henri/Desktop/F1Pharmacy/Views/Employee/Delete.cshtml]
+[C:/Users/PC/desktop/F1Pharmacy/Views/Employee/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/henri/Desktop/F1Pharmacy/Views/Employee/Index.cshtml]
+[C:/Users/PC/desktop/F1Pharmacy/Views/Employee/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/henri/Desktop/F1Pharmacy/Views/Employee/Show.cshtml]
+[C:/Users/PC/desktop/F1Pharmacy/Views/Employee/Show.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcU2hvdy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/henri/Desktop/F1Pharmacy/Views/Employee/Update.cshtml]
+[C:/Users/PC/desktop/F1Pharmacy/Views/Employee/Update.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcVXBkYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/henri/Desktop/F1Pharmacy/Views/Home/Index.cshtml]
+[C:/Users/PC/desktop/F1Pharmacy/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/henri/Desktop/F1Pharmacy/Views/Home/Privacy.cshtml]
+[C:/Users/PC/desktop/F1Pharmacy/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/henri/Desktop/F1Pharmacy/Views/Medicine/Cadastro.cshtml]
+[C:/Users/PC/desktop/F1Pharmacy/Views/Medicine/Cadastro.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVkaWNpbmVcQ2FkYXN0cm8uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/henri/Desktop/F1Pharmacy/Views/Medicine/Delete.cshtml]
+[C:/Users/PC/desktop/F1Pharmacy/Views/Medicine/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVkaWNpbmVcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/henri/Desktop/F1Pharmacy/Views/Medicine/Index.cshtml]
+[C:/Users/PC/desktop/F1Pharmacy/Views/Medicine/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVkaWNpbmVcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/henri/Desktop/F1Pharmacy/Views/Medicine/Show.cshtml]
+[C:/Users/PC/desktop/F1Pharmacy/Views/Medicine/Show.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVkaWNpbmVcU2hvdy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/henri/Desktop/F1Pharmacy/Views/Medicine/Update.cshtml]
+[C:/Users/PC/desktop/F1Pharmacy/Views/Medicine/Update.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVkaWNpbmVcVXBkYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/henri/Desktop/F1Pharmacy/Views/Shared/Error.cshtml]
+[C:/Users/PC/desktop/F1Pharmacy/Views/Sale/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FsZVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/PC/desktop/F1Pharmacy/Views/Sale/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FsZVxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/PC/desktop/F1Pharmacy/Views/Sale/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FsZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/PC/desktop/F1Pharmacy/Views/Sale/Show.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FsZVxTaG93LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/PC/desktop/F1Pharmacy/Views/Sale/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FsZVxVcGRhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/PC/desktop/F1Pharmacy/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/henri/Desktop/F1Pharmacy/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/PC/desktop/F1Pharmacy/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/henri/Desktop/F1Pharmacy/Views/Store/Cadastro.cshtml]
+[C:/Users/PC/desktop/F1Pharmacy/Views/Stock/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RvY2tcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/PC/desktop/F1Pharmacy/Views/Stock/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RvY2tcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/PC/desktop/F1Pharmacy/Views/Stock/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RvY2tcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/PC/desktop/F1Pharmacy/Views/Stock/Show.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RvY2tcU2hvdy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/PC/desktop/F1Pharmacy/Views/Stock/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RvY2tcVXBkYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/PC/desktop/F1Pharmacy/Views/Store/Cadastro.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RvcmVcQ2FkYXN0cm8uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/henri/Desktop/F1Pharmacy/Views/Store/Delete.cshtml]
+[C:/Users/PC/desktop/F1Pharmacy/Views/Store/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RvcmVcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/henri/Desktop/F1Pharmacy/Views/Store/Index.cshtml]
+[C:/Users/PC/desktop/F1Pharmacy/Views/Store/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RvcmVcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/henri/Desktop/F1Pharmacy/Views/Store/Show.cshtml]
+[C:/Users/PC/desktop/F1Pharmacy/Views/Store/Show.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RvcmVcU2hvdy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/henri/Desktop/F1Pharmacy/Views/Store/Update.cshtml]
+[C:/Users/PC/desktop/F1Pharmacy/Views/Store/Update.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RvcmVcVXBkYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/henri/Desktop/F1Pharmacy/Views/_ViewImports.cshtml]
+[C:/Users/PC/desktop/F1Pharmacy/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/henri/Desktop/F1Pharmacy/Views/_ViewStart.cshtml]
+[C:/Users/PC/desktop/F1Pharmacy/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/henri/Desktop/F1Pharmacy/Views/Shared/_Layout.cshtml]
+[C:/Users/PC/desktop/F1Pharmacy/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-or3o39y8ey

@@ -1,0 +1,40 @@
+@model IEnumerable<F1Pharmacy.Models.Stock>
+
+@{
+    ViewData["Title"] = "Items";
+}
+
+<h1>@ViewData["Title"]</h1>
+<a class = "btn btn-primary btn-sm"href ="/Stock/Create/">Cadastrar item</a>
+
+@if(Model.Count() == 0)
+{
+    <p>Nenhum item cadastrado</p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Item</th>
+                <th>Quantidade</th>
+            </tr>
+        </thead>
+        <body>
+            @foreach(var stock in Model)
+            {
+                <tr>
+                    <td>@stock.Id</td>
+                    <td>@stock.Item</td>
+                    <td>@stock.Quantity</td>
+                    <td>
+                        <a class = "btn btn-primary btn-sm"href ="/Stock/Show/@stock.Id">Ver</a>
+                        <a class = "btn btn-primary btn-sm"href ="/Stock/Update/@stock.Id">Atualizar</a>
+                        <a class = "btn btn-primary btn-sm"href ="/Stock/Delete/@stock.Id">Deletar</a>
+                    </td>
+                </tr>
+            }
+        </body>
+    </table>        
+}

@@ -16373,6 +16373,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\henri\\Desktop\\F1Pharmacy\\Views\\Stock copy\\Update.cshtml",
+      "TargetPath": "Views\\Stock copy\\Update.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\henri\\Desktop\\F1Pharmacy\\Views\\Store\\Index.cshtml",
       "TargetPath": "Views\\Store\\Index.cshtml",
       "FileKind": "mvc"
@@ -16383,8 +16388,23 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\henri\\Desktop\\F1Pharmacy\\Views\\Stock\\Delete.cshtml",
+      "TargetPath": "Views\\Stock\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\henri\\Desktop\\F1Pharmacy\\Views\\Stock\\Update.cshtml",
+      "TargetPath": "Views\\Stock\\Update.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\henri\\Desktop\\F1Pharmacy\\Views\\Employee\\Delete.cshtml",
       "TargetPath": "Views\\Employee\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\henri\\Desktop\\F1Pharmacy\\Views\\Stock copy\\Index.cshtml",
+      "TargetPath": "Views\\Stock copy\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -16393,8 +16413,23 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\henri\\Desktop\\F1Pharmacy\\Views\\Stock\\Create.cshtml",
+      "TargetPath": "Views\\Stock\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\henri\\Desktop\\F1Pharmacy\\Views\\Shared\\Error.cshtml",
       "TargetPath": "Views\\Shared\\Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\henri\\Desktop\\F1Pharmacy\\Views\\Stock\\Index.cshtml",
+      "TargetPath": "Views\\Stock\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\henri\\Desktop\\F1Pharmacy\\Views\\Stock\\Show.cshtml",
+      "TargetPath": "Views\\Stock\\Show.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -16403,13 +16438,28 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\henri\\Desktop\\F1Pharmacy\\Views\\Stock copy\\Show.cshtml",
+      "TargetPath": "Views\\Stock copy\\Show.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\henri\\Desktop\\F1Pharmacy\\Views\\Customer\\Update.cshtml",
       "TargetPath": "Views\\Customer\\Update.cshtml",
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\henri\\Desktop\\F1Pharmacy\\Views\\Stock copy\\Delete.cshtml",
+      "TargetPath": "Views\\Stock copy\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\henri\\Desktop\\F1Pharmacy\\Views\\Medicine\\Update.cshtml",
       "TargetPath": "Views\\Medicine\\Update.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\henri\\Desktop\\F1Pharmacy\\Views\\Stock copy\\Create.cshtml",
+      "TargetPath": "Views\\Stock copy\\Create.cshtml",
       "FileKind": "mvc"
     },
     {
