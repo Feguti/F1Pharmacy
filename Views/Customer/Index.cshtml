@@ -1,0 +1,46 @@
+@model IEnumerable<F1Pharmacy.Models.Customer>
+
+@{
+    ViewData["Title"] = "Customers";
+}
+
+<h1>@ViewData["Title"]</h1>
+<a class = "btn btn-primary btn-sm"href ="/Customer/Create/">Cadastrar cliente</a>
+
+@if(Model.Count() == 0)
+{
+    <p>Nenhum cliente cadastrado</p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Nome</th>
+                <th>Cidade</th>
+                <th>Endereço</th>
+                <th>Email</th>
+                <th>Phone</th>
+            </tr>
+        </thead>
+        <body>
+            @foreach(var customer in Model)
+            {
+                <tr>
+                    <td>@customer.Id</td>
+                    <td>@customer.Name</td>
+                    <td>@customer.City</td>
+                    <td>@customer.Address</td>
+                    <td>@customer.Email</td>
+                    <td>@customer.Phone</td>
+                    <td>
+                        <a class = "btn btn-primary btn-sm"href ="/Customer/Show/@customer.Id">Ver</a>
+                        <a class = "btn btn-primary btn-sm"href ="/Customer/Update/@customer.Id">Atualizar</a>
+                        <a class = "btn btn-primary btn-sm"href ="/Customer/Delete/@customer.Id">Deletar</a>
+                    </td>
+                </tr>
+            }
+        </body>
+    </table>        
+}

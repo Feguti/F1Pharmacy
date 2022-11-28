@@ -1,0 +1,25 @@
+@model F1Pharmacy.Models.Customer
+
+@{
+    ViewData["Title"] = $"Cliente {Model.Id}";
+}
+<h1>@ViewData["Title"]</h1>
+
+<p>
+    <b>Id:</b> @Model.Id
+</p>
+<p>
+    <b>Nome:</b> @Model.Name
+</p>
+<p>
+    <b>Cidade:</b> @Model.City
+</p>
+<p>
+    <b>Endereço:</b> @Model.Address
+</p>
+<p>
+    <b>Email:</b> @Model.Email
+</p>
+<p>
+    <b>Phone:</b> @Model.Phone
+</p>

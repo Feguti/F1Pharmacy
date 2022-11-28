@@ -1,21 +1,21 @@
 namespace F1Pharmacy.Models;
 
-public class Customer
+public class Employee
 {
     public int Id { get; set; }
     public string Name { get; set; }
-    public string City { get; set; }
+    public string Role { get; set; }
     public string Address { get; set; }
     public string Email { get; set; }
     public string Phone { get; set; }
 
-    public Customer() {}
+    public Employee() {}
 
-    public Customer(int id, string name, string city, string address, string email, string phone)
+    public Employee(int id, string name, string role, string address, string email, string phone)
     {
         Id = id;
         Name = name;
-        City = city;
+        Role = role;
         Address = address;
         Email = email;
         Phone = phone;
